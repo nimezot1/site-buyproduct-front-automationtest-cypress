@@ -10,16 +10,6 @@
 
     * Instalar Nodejs > https://nodejs.org/en/download/
     - Recomendo utilizar a última versão
-
-    * Ou Instalar o Ruby via [Homebrew](http://brew.sh/)
-    ```
-    $ brew install ruby
-    ```
-    * Instalar Bundler (Sudo pode ser necessário)
-    - Bundler é o gerenciador de gemas do Ruby, oferece um ambiente consistente para o gerenciamento e instalação
-    das dependencias do projeto.
-    ```
-    $ gem install bundler
     ```
 2. Variáveis de Ambiente
 
@@ -32,7 +22,11 @@
 
 ### Executar Testes
 	NPX
-	NPX é um executor de pacote NPM que torna realmente fácil instalar qualquer tipo de executável de nó que normalmente teria sido instalado usando NPM. Se o NPM é um gerenciador (manager) de pacotes, o NPX é um executor.
+	NPX é um executor de pacote NPM que torna realmente fácil 
+	instalar qualquer tipo de executável de nó que normalmente 
+	teria sido instalado usando NPM. Se o NPM é um gerenciador 
+	(manager) de pacotes, o NPX é um executor.
+	
 	O comando npx deve ser excutado cmd para que o Cypress seja iniciado.
 	O Cypress será aberto e apresentará as automações que foram desenvolvidas
   ```
@@ -43,7 +37,7 @@
    Este comando irá executar as automações que foram desenvolvidas, e gera evidências em video.
   ```
 	$ npx cypress run
-
+  ```
 
 ### Resources
 
