@@ -10,15 +10,15 @@
 
     * Instalar Nodejs > https://nodejs.org/en/download/
     - Recomendo utilizar a última versão
-    ```
+    
 2. Variáveis de Ambiente
-
+	
 	* Preparas as seguintes variavies de ambiente
 	- Variáveis do Sistema
-		.Nova variavel: NODE_HOME > C:\Program Files\nodejs
-		.Add Path > C:\Program Files\nodejs
-		.Add Path > C:\Program Files\nodejs\node_modules\npm\bin
-	```
+		* Nova variavel: NODE_HOME > C:\Program Files\nodejs
+		* Add Path > C:\Program Files\nodejs
+		* Add Path > C:\Program Files\nodejs\node_modules\npm\bin
+
 
 ### Executar Testes
 	NPX
@@ -29,13 +29,12 @@
 	
 	O comando npx deve ser excutado cmd para que o Cypress seja iniciado.
 	O Cypress será aberto e apresentará as automações que foram desenvolvidas
-  ```
+	
 	$ npx cypress open
-  
   ```
    Também podemos executar o comando npx no modo headless (sem interface gráfica)
    Este comando irá executar as automações que foram desenvolvidas, e gera evidências em video.
-  ```
+
 	$ npx cypress run
   ```
 
