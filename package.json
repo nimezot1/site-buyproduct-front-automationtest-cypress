@@ -1,0 +1,14 @@
+{
+  "name": "automationtest-bugereats",
+  "version": "1.0.0",
+  "description": "automação site buger-eats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Tiago Ferreira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.3.1"
+  }
+}
