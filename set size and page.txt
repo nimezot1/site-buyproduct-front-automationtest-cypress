@@ -1,0 +1,9 @@
+ESSAS CONDIÇÕES PODEM SER SETADAS NO ARQUIVO cypress.json
+
+    {
+    "viewportWidth": 1366,
+    "viewportHeight": 768,
+    "defaultCommandTimeout": 10000,
+    "baseUrl": "https://buger-eats.vercel.app"
+    }
+
