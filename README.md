@@ -38,6 +38,11 @@
 	$ npx cypress run
   ```
 
+  ## Comandos para iniciar um projeto novo
+- npm install --save-dev cypress
+- npm install --save-dev cypress cypress-cucumber-preprocessor
+- npm install --save-dev cypress-mochawesome-reporter
+
 ### Resources
 
 ##### [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress)
